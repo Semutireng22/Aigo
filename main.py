@@ -13,7 +13,7 @@ CHANNEL_LINK = "https://t.me/ugdairdrop"
 url = "https://api.aigo.network/graphql"
 
 # Membaca token autentikasi dari file
-def read_auth_tokens(filename='aigo.txt'):
+def read_auth_tokens(filename='token.txt'):
     with open(filename, 'r') as file:
         return [line.strip() for line in file if line.strip()]
 
